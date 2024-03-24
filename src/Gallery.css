@@ -1,0 +1,19 @@
+.container{
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 5px; */
+}
+img{
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 200px;
+    height: 200px;
+    transition: 0.4s;
+}
+img:hover{
+    width: 220px;
+    height: 220px;
+}

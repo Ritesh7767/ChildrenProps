@@ -1,0 +1,15 @@
+.navbar{
+    width: 70%;
+    margin: auto;
+    border: 1px solid teal;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.navbar input{
+    width: 50%;
+}
+.navbar input:focus{
+    outline: none;
+    border: 2px solid teal;
+}
